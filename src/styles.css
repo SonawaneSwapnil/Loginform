@@ -1,0 +1,74 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(79deg, #7439db, #c66fbc, #f7994d);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(232, 229, 236);
+}
+
+.form {
+  border: 10px solid rgb(142, 222, 135);
+  margin: 10px;
+  padding: 10px;
+}
+
+.container {
+  width: 500px;
+  height: 250px;
+  margin: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-container,
+login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25%;
+  margin: 20px;
+}
+label {
+  padding: 0.25rem 0;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  font-family: Cursive;
+  text-align: center;
+}
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+}
+
+button {
+  cursor: pointer;
+  padding: 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: rgb(179, 25, 25);
+  color: white;
+  font-family: cursive;
+}
+button:hover {
+  background-color: green;
+  transition-delay: 0.2s;
+}
+.mail {
+  margin: 20px;
+}
+.pass {
+  margin: 20px;
+}
